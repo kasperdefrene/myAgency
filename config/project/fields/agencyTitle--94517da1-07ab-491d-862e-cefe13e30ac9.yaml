@@ -1,0 +1,19 @@
+columnSuffix: zeteyqpn
+contentColumnType: text
+fieldGroup: 0cb86248-587f-4d81-b636-3a3ba472901f # Home page
+handle: agencyTitle
+instructions: null
+name: Agency_title
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: myAgency
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: skmuznii
+contentColumnType: text
+fieldGroup: 0cb86248-587f-4d81-b636-3a3ba472901f # Home page
+handle: agencyInfo
+instructions: null
+name: Agency_info
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Give a short intro text of the agency'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
