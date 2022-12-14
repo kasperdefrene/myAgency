@@ -7,9 +7,9 @@
     {{ craft.vite.script("src/js/app.js") }}
   </head>
 
-  {% set logo = entry.agencyLogo.one() %}
+  {% set logo = logoSet.agencyLogo.one() %}
 
-  <body class="ltr">
+  <body>
     <header>
       <nav class="navbar">
         <ul>

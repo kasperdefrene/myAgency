@@ -43,9 +43,10 @@
     
         {% set photo = teamMember.photo.one() %}
             <section class="home__team__section">
-                <figure class="home__team__image__shadow"><img class="home__team__image" src="{{ photo.url }}" alt=""></figure>
-                <h3>{{ teamMember.firstName }}</h3>
-                <h4>{{ teamMember.lastName }}</h4>
+                <img class="home__team__image" src="{{ photo.url }}" alt="">
+                <h3 class="home__team__first_name">{{ teamMember.firstName }}</h3>
+                <h4 class="home__team__last_name">{{ teamMember.lastName }}</h4>
+                <p class="home__team__function">{{ teamMember.function }}</p>
             </section>
         {% endfor %}
     </div>

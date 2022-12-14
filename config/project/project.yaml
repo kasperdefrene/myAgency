@@ -1,4 +1,4 @@
-dateModified: 1671043880
+dateModified: 1671050756
 email:
   fromEmail: kasper.de.frene@student.howest.be
   fromName: Agency
@@ -15,6 +15,7 @@ meta:
   __names__:
     0cb86248-587f-4d81-b636-3a3ba472901f: 'Home page' # Home page
     1d62d6ba-4632-45fa-9884-8bb7642b10d6: Common # Common
+    1dc3e5dc-90f9-44db-9461-7779f34b5a79: 'contact page'
     1fba6b9a-a4e0-4b23-9ada-0252e30df1eb: Home_about # Home_about
     5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40: Assets # Assets
     06f6444a-ae0e-4eec-9b60-be414cf4c030: Agency # Agency
@@ -24,8 +25,10 @@ meta:
     11d573ef-a3aa-4b85-9c0b-5a6b26875c5a: Photo # Photo
     12b2563c-ae02-4b78-938b-ed96e2449eb8: Home # Home
     13f970a6-dd4b-4981-82cf-ed8e8731f084: Home # Home
+    28c3c5ca-9b42-4f07-9883-11d1f4efb68d: Function # Function
     39f77da7-cd54-498d-ae6c-f931841c747f: 'First name' # First name
     253de168-8bb9-4ada-83dd-3030bcb71fde: 'Team member' # Team member
+    706bcba6-87d5-425c-81cc-24aa26095035: logo_set # logo_set
     94517da1-07ab-491d-862e-cefe13e30ac9: Agency_title # Agency_title
     aae1f4f0-89a3-42cc-a488-59025cbe8e4e: Agency_info # Agency_info
     b9cd6a21-5649-4875-8a00-0b45a5b09b5d: Contact # Contact

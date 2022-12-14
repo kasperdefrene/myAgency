@@ -41,6 +41,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 28c3c5ca-9b42-4f07-9883-11d1f4efb68d # Function
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c68c1136-077d-4985-8f3d-ae2a7529ff34
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: f7d9ef28-b0cf-4502-86c9-50e95f158b8d
         userCondition: null
@@ -82,7 +94,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: 'add the photo of the team member'
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null
@@ -94,6 +106,26 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  28c3c5ca-9b42-4f07-9883-11d1f4efb68d: # Function
+    columnSuffix: vxyeizns
+    contentColumnType: text
+    fieldGroup: null
+    handle: function
+    instructions: 'fill in the function of the member'
+    name: Function
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   39f77da7-cd54-498d-ae6c-f931841c747f: # First name
     columnSuffix: dqqqmbdc
     contentColumnType: text
