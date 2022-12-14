@@ -30,9 +30,24 @@
     </div>
 </section>
 
+
+
 <section class="home__team">
     <h2 class="home__team__title">Meet the team</h2>
-    <div class="home__team__container">
+    <p class="home__team__info"> {{ entry.team }} </p>
+
+    
+
+    <div class= "home__team__container">
+        {% for teamMember in entry.teamMembers.all() %}
+    
+        {% set photo = teamMember.photo.one() %}
+            <section class="home__team__section">
+                <figure class="home__team__image__shadow"><img class="home__team__image" src="{{ photo.url }}" alt=""></figure>
+                <h3>{{ teamMember.firstName }}</h3>
+                <h4>{{ teamMember.lastName }}</h4>
+            </section>
+        {% endfor %}
     </div>
 </section>
 

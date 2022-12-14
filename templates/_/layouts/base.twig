@@ -6,6 +6,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     {{ craft.vite.script("src/js/app.js") }}
   </head>
+
+  {% set logo = entry.agencyLogo.one() %}
+
   <body class="ltr">
     <header>
       <nav class="navbar">
@@ -21,5 +24,17 @@
 
       {% endblock %}
     </div>
+    <footer>
+      <section>
+        <h2>Contact</h2>
+        <p></p>
+      </section>
+      <section>
+        <img class="footer__logo" src="{{ logo.url }}" alt="">
+      </section>
+      <section>
+
+      </section>
+    </footer>
   </body>
 </html>

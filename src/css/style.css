@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Unbounded&display=swap');
 @import url("css_base/navbar.css");
+@import url("css_base/footer.css");
 
 :root
 {
@@ -9,6 +10,7 @@
     --tertiary-color: #111;
     --tertiary-color-transparant: rgba(17, 17, 17, 0.925);
 
+    --margin-xlarge: 4rem;
     --margin-large: 2rem;
     --margin-medium: 1rem;
     --margin-small: 0.5rem;
@@ -74,7 +76,8 @@ body{
 
 .home__fold__image{
     width: 50%;
-    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
     margin-left: var(--margin-large);
     box-shadow: 25px 25px 40px var(--primary-color);
 }
@@ -120,4 +123,39 @@ body{
     color: var(--primary-color);
     margin-bottom: var(--margin-medium);
     text-align: center;
+}
+
+.home__team__info{
+    font-size: var(--font-size-small);
+    text-align: center;
+    margin-block-end: var(--margin-xlarge);
+}
+
+.home__team__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.home__team__section{
+    text-align: center;
+}
+
+.home__team__image{
+    width: 100%;
+    justify-self: center;
+    border-radius: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+
+.home__team__image__shadow{
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    box-shadow: 15px 15px 30px var(--primary-color);
 }

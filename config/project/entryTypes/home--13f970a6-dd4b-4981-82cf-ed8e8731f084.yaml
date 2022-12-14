@@ -90,8 +90,38 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+        name: Intro
         uid: ec0ffe42-ea64-4c71-b8c4-fdb17d9705ba
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ca56e1c6-0e39-4046-9d7c-0b7be41ff8c8 # Team
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b39ddfce-1833-45da-b5db-1b979791fdbc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9d249cb8-b776-48ed-b566-5f331f3e0f14 # team members
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4005e8a4-ad60-4e02-94ac-38e11d837933
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'team members'
+        uid: 286db1ab-8224-48cd-91b3-584902dac4cd
         userCondition: null
 handle: home
 hasTitleField: false

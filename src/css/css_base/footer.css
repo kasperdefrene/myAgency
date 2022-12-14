@@ -1,0 +1,16 @@
+footer{
+    height: 30vh;
+    background-color: var(--tertiary-color-transparant);
+    margin-block-start: var(--margin-xlarge);
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__logo{
+    width: 10%;
+}
