@@ -4,7 +4,8 @@
 @import url("css_base/footer.css");
 @import url("css_base/home.css");
 @import url("css_base/contact.css");
-@import url("css_base/projects.css");
+@import url("css_base/project_overview.css");
+@import url("css_base/project__detail.css");
 
 :root
 {

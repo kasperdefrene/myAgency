@@ -1,5 +1,5 @@
 fieldLayouts:
-  84b5766d-2e7a-4d8d-9867-f8cc13e9dade:
+  bfc2b7c5-08d8-4a90-8687-975facb91074:
     tabs:
       -
         elementCondition: null
@@ -13,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: Title
+            label: null
             max: null
             min: null
             name: null
@@ -26,29 +26,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 3355e288-57fd-4d97-8942-ea66f91ae811
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 7a4fb12f-e7ca-4de7-82a9-029b4e1edf6a # photo
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 58312af0-c377-4982-aaa5-d0767c962c0d
+            uid: 7a4d843f-1d30-4be5-8f86-27e7941bfc75
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b799a2bd-bb08-4af0-b2b0-56d3123643ff
+        uid: f6ec5be0-1614-4eb7-bdcd-d3097c4a86ba
         userCondition: null
-handle: projects
-hasTitleField: true
-name: Projects
-section: f541a3bc-9d47-4b06-9dc7-3cbf40f303fa # Projects
+handle: projectListing
+hasTitleField: false
+name: 'project listing'
+section: 1a82f55e-ecdb-48f2-b497-bde45326cb1e # project listing
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

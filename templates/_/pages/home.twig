@@ -2,7 +2,7 @@
 {% block content %}
 
 {% set image = entry.agencyImage.one() %}
-{% set logo = entry.agencyLogo.one() %}
+{% set logo = logoSet.agencyLogo.one() %}
 
 <section class="home__fold">
     <div class="home__fold__container">

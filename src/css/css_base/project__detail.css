@@ -1,0 +1,10 @@
+.project__detail{
+    padding: 10%;
+}
+
+.project__detail__title{
+    font-family: var(--title-font);
+    font-size: var(--font-size-xlarge);
+    color: var(--primary-color);
+    margin-bottom: var(--margin-large);
+}

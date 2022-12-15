@@ -1,0 +1,25 @@
+{% extends "_/layouts/base.twig" %}
+
+{% set projects = craft.entries.section('projects').all() %}
+
+{% block content %}
+    <section class="projects">
+        <h1 class="projects__title">Our projects</h1>
+        
+            <div class="projects__container">
+
+            {% for project in projects %}
+
+            {% set photo = project.photo.one() %}
+
+            <div class="projects__item">
+                <img class="projects__image" src="{{ photo.url }}" alt="">
+                <h1 class="projects__name">{{ project.title }}</h1>
+                <a class="projects__url" href="{{ project.url }}">Learn more</a>
+            </div>
+
+            {% endfor %}
+
+            </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,19 @@
+columnSuffix: vpievzlq
+contentColumnType: text
+fieldGroup: 1d62d6ba-4632-45fa-9884-8bb7642b10d6 # Common
+handle: projectName
+instructions: "fill in the name of the project\r\n"
+name: 'Project name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
