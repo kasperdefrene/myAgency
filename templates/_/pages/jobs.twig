@@ -1,0 +1,16 @@
+{% extends "_/layouts/base.twig" %}
+
+{% block content %}
+
+    {% set photo = entry.jobsImage.one()%}
+
+    <section class="jobs">
+        <h1 class="jobs__title">We have jobs!</h1>
+        <div class="jobs__container">
+            <img class="jobs__image" src="{{ photo.url }}" alt="">
+            <section class="jobs__listing">
+            </section>
+        </div>
+    </section>
+    
+{% endblock %}

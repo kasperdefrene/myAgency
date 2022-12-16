@@ -1,4 +1,4 @@
-dateModified: 1671195259
+dateModified: 1671207288
 email:
   fromEmail: kasper.de.frene@student.howest.be
   fromName: Agency
@@ -35,7 +35,9 @@ meta:
     39f77da7-cd54-498d-ae6c-f931841c747f: 'First name' # First name
     80bfc760-9563-4d78-96a6-ee20e6c2e7d9: Navigation # Navigation
     253de168-8bb9-4ada-83dd-3030bcb71fde: 'Team member' # Team member
+    483ec9e4-e5f3-4253-b0f9-249c1cb98723: 'Jobs image' # Jobs image
     706bcba6-87d5-425c-81cc-24aa26095035: logo_set # logo_set
+    841d35a3-f22e-44d9-b57f-aa43e2813d04: Jobs # Jobs
     1160b923-cca3-43ae-a38a-a0769f7c13d5: 'logo navigation' # logo navigation
     94517da1-07ab-491d-862e-cefe13e30ac9: Agency_title # Agency_title
     4499342d-42ee-4481-9ae4-ac7d97faf127: 'Project name' # Project name
@@ -43,10 +45,12 @@ meta:
     b9cd6a21-5649-4875-8a00-0b45a5b09b5d: Contact # Contact
     bb7fbe85-32b8-474d-8d65-8510bce3dfb8: description # description
     c66d2a40-e5dc-4cb3-aff0-3967b3097807: Projects # Projects
+    c721baec-0525-4f91-a752-102313c93d9f: Jobs # Jobs
     ca56e1c6-0e39-4046-9d7c-0b7be41ff8c8: Team # Team
     cef4a5b5-eeb9-48be-b320-483752a6a9e7: 'Last name' # Last name
     cfde8b38-ec03-474c-8db6-063e277cca71: Agency_image # Agency_image
     e980ba16-595d-4356-adef-b3c63803c7cb: 'project listing' # project listing
+    e426384d-3ba3-4ee6-aed6-7b443dbfb7ee: 'jobs page' # jobs page
     ee27edf1-8569-4970-af60-3cb60268029a: 'Navigation elements' # Navigation elements
     f541a3bc-9d47-4b06-9dc7-3cbf40f303fa: Projects # Projects
     fb149fcd-397b-4664-bd3d-042d3b4f1f58: Agency # Agency

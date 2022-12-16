@@ -31,18 +31,20 @@
       {% endblock %}
     </div>
     <footer>
-      <section class="footer__first_column">
-        {% for link in navigation.navigationElements.all() %}
-          {% set destination = link.linkDestination.one() %}
-          <a href="{{ destination.url }}">{{ link.linkText }}</a>
-        {% endfor %}
-      </section>
-      <section>
-        <img class="footer__logo" src="{{ logo.url }}" alt="">
-      </section>
-      <section>
-
-      </section>
+      <div class="footer__container">
+        <section class="footer__column">
+          {% for link in navigation.navigationElements.all() %}
+            {% set destination = link.linkDestination.one() %}
+            <a href="{{ destination.url }}">{{ link.linkText }}</a>
+          {% endfor %}
+        </section>
+        <section class="footer__column">
+          <img class="footer__logo" src="{{ logo.url }}" alt="">
+        </section>
+        <section class="footer__column">
+  
+        </section>
+      </div>
     </footer>
   </body>
 </html>

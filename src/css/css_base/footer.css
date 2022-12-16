@@ -12,15 +12,16 @@ footer{
     height: 100%;
 }
 
-.footer__first_column{
+.footer__column{
     width: 30%;
     margin-inline-start: 10%;
 }
 
 .footer__first_column a{
-
+    display: inline;
 }
 
 .footer__logo{
-    width: 10%;
+    width: 100%;
+    margin: 0 auto;
 }

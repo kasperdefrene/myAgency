@@ -30,7 +30,10 @@
 }
 
 .project__detail__info{
+    height: 100%;
     border-right: 2px solid var(--primary-color);
+    padding-inline-end: 3%;
+    margin-block-start: 10%;
 }
 
 .project__detail__image{

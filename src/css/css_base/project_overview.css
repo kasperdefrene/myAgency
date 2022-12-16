@@ -34,3 +34,7 @@
     margin-bottom: var(--margin-medium);
     text-align: center;
 }
+
+.projects__url{
+    color: black;
+}

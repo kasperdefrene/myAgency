@@ -1,0 +1,55 @@
+fieldLayouts:
+  41ec43ea-9466-4042-aa11-15a82d1dde93:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 719d1bff-40dd-4e0f-ac6a-bdc07b3a19ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 483ec9e4-e5f3-4253-b0f9-249c1cb98723 # Jobs image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31af8672-f007-4506-af3e-57e7669aaa33
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6b523b6f-845e-4bda-81f2-64c7adea3234
+        userCondition: null
+handle: jobs
+hasTitleField: false
+name: Jobs
+section: c721baec-0525-4f91-a752-102313c93d9f # Jobs
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

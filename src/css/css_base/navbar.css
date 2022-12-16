@@ -13,9 +13,10 @@
   padding: 1%;
 }
 
-a{
+.nav__container a{
   text-decoration: none;
   color: white;
+  margin-inline-end: 5%;
 }
 
 .nav__container a:first-of-type{
@@ -23,14 +24,10 @@ a{
   height: 3rem;
 }
 
-.nav__container a{
-  margin-inline-end: 5%;
-}
-
 .logo__navigation{
    width: 100%;
 }
 
 .nav__container a:hover{
-  background-color: var(--primary-color);
+  color: var(--primary-color);
 }

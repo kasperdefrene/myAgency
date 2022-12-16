@@ -20,7 +20,11 @@
 }
 
 .contact__text{
+    height: 100%;
     border-right: 2px solid var(--primary-color);
+    padding-inline-end: 3%;
+    margin-block-start: 10%;
+    line-height: 160%;
 }
 
 .contact__form{
