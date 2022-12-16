@@ -5,10 +5,20 @@ footer{
 }
 
 .footer__container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.footer__first_column{
+    width: 30%;
+    margin-inline-start: 10%;
+}
+
+.footer__first_column a{
+
 }
 
 .footer__logo{

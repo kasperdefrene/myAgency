@@ -14,14 +14,15 @@
   <body>
     <header>
       <nav class="navbar">
-            <a href="{{ siteUrl }}">
-              <img class="logo__navigation" src="{{ logoNav.url }}" alt="">
-            </a>
-          {% for link in navigation.navigationElements.all() %}
-            {% set destination = link.linkDestination.one() %}
-            <a href="{{ destination.url }}">{{ link.linkText }}</a>
-          {% endfor %}
-
+          <div class="nav__container">
+              <a href="{{ siteUrl }}">
+                <img class="logo__navigation" src="{{ logoNav.url }}" alt="">
+              </a>
+            {% for link in navigation.navigationElements.all() %}
+              {% set destination = link.linkDestination.one() %}
+              <a href="{{ destination.url }}">{{ link.linkText }}</a>
+            {% endfor %}
+          </div>
       </nav>
     </header>
     <div class="container mx-auto px-4">
@@ -30,9 +31,11 @@
       {% endblock %}
     </div>
     <footer>
-      <section>
-        <h2>Contact</h2>
-        <p></p>
+      <section class="footer__first_column">
+        {% for link in navigation.navigationElements.all() %}
+          {% set destination = link.linkDestination.one() %}
+          <a href="{{ destination.url }}">{{ link.linkText }}</a>
+        {% endfor %}
       </section>
       <section>
         <img class="footer__logo" src="{{ logo.url }}" alt="">

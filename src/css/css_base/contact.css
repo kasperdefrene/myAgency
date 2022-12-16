@@ -1,0 +1,28 @@
+.contact{
+    padding: 10%;
+}
+
+.contact__title{
+    font-family: var(--title-font);
+    font-size: var(--font-size-xlarge);
+    color: var(--primary-color);
+    margin-bottom: var(--margin-large);
+    text-align: center;
+}
+
+.contact__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    gap: 10%;
+    margin-block-end: 8rem;
+}
+
+.contact__text{
+    border-right: 2px solid var(--primary-color);
+}
+
+.contact__form{
+    
+}

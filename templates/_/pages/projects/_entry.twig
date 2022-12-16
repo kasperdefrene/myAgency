@@ -1,9 +1,22 @@
 {% extends "_/layouts/base.twig" %}
 
+
+
 {% block content %}
+
+{% set photo = entry.photo.one() %}
 
 <section class="project__detail">
     <h1 class="project__detail__title">{{ entry.title }}</h1>
+
+    <div class="project__detail__container">
+        <section class="project__detail__info">
+            <h2 class="project__detail__subtitle">Description</h2>
+            <p class="project__detail__text">{{ entry.description }}</p>
+        </section>
+        <img class="project__detail__image" src="{{ photo.url }}" alt="">
+    </div>
+
 </section>
 
 {% endblock %}

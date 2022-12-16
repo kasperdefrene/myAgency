@@ -1,4 +1,4 @@
-dateModified: 1671181934
+dateModified: 1671195259
 email:
   fromEmail: kasper.de.frene@student.howest.be
   fromName: Agency
@@ -41,6 +41,7 @@ meta:
     4499342d-42ee-4481-9ae4-ac7d97faf127: 'Project name' # Project name
     aae1f4f0-89a3-42cc-a488-59025cbe8e4e: Agency_info # Agency_info
     b9cd6a21-5649-4875-8a00-0b45a5b09b5d: Contact # Contact
+    bb7fbe85-32b8-474d-8d65-8510bce3dfb8: description # description
     c66d2a40-e5dc-4cb3-aff0-3967b3097807: Projects # Projects
     ca56e1c6-0e39-4046-9d7c-0b7be41ff8c8: Team # Team
     cef4a5b5-eeb9-48be-b320-483752a6a9e7: 'Last name' # Last name

@@ -1,6 +1,30 @@
 {% extends "_/layouts/base.twig" %}
 
 {% block content %}
-<h1>Get in touch</h1>
+
+    <section class="contact">
+        <h1 class="contact__title">Get in touch</h1>
+        <div class="contact__container">
+            <p class="contact__text">If you have any questions or would like to get in touch, please fill out the form and we will get back to you as soon as possible.</p>
+            <form class="contact__form" action="mailto:kasper.de.frene@student.howest.be" method="post">
+                <div class="contact__form__group">
+                    <label class="contact__form__label" for="name">Name</label>
+                    <input class="contact__form__input" type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+                <div class="contact__form__group">
+                    <label class="contact__form__label" for="email">Email</label>
+                    <input class="contact__form__input" type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="contact__form__group">
+                    <label class="contact__form__label" for="message">Message</label>
+                    <textarea class="contact__form__input" name="message" id="message" placeholder="Your message" required></textarea>
+                </div>
+                <div class="contact__form__group">
+                    <input type="submit" name="submit" value="Send" />
+                    <input type="reset" name="reset" value="Clear Message" />
+                </div>
+            </form>
+        </div>
+    </section>
 
 {% endblock %}
