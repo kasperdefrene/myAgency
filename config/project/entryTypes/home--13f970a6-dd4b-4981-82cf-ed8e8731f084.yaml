@@ -90,6 +90,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c81b245-6c5f-4aa2-a05d-49102b6c89b6 # agency logo navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a3bb2cc-cac8-4ec0-8525-4e1cfb70f3e5
+            userCondition: null
+            warning: null
+            width: 100
         name: Intro
         uid: ec0ffe42-ea64-4c71-b8c4-fdb17d9705ba
         userCondition: null

@@ -1,4 +1,4 @@
-dateModified: 1671139079
+dateModified: 1671181934
 email:
   fromEmail: kasper.de.frene@student.howest.be
   fromName: Agency
@@ -18,19 +18,25 @@ meta:
     1d62d6ba-4632-45fa-9884-8bb7642b10d6: Common # Common
     1dc3e5dc-90f9-44db-9461-7779f34b5a79: 'contact page' # contact page
     1fba6b9a-a4e0-4b23-9ada-0252e30df1eb: Home_about # Home_about
+    5a9b193a-bb9b-4a52-8d73-246d0ff999ec: 'Link text' # Link text
     5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40: Assets # Assets
     06f6444a-ae0e-4eec-9b60-be414cf4c030: Agency # Agency
     6fdacbe3-55e3-4edb-9596-9964b2d6f393: Agency_logo # Agency_logo
     7a4fb12f-e7ca-4de7-82a9-029b4e1edf6a: photo # photo
+    8c81b245-6c5f-4aa2-a05d-49102b6c89b6: 'agency logo navigation' # agency logo navigation
     8d8c179f-bb90-4400-b1cb-0616ccffce68: Contact # Contact
+    9b850dd5-ee3e-4ae1-8a9c-e5933059820c: Link # Link
     9d249cb8-b776-48ed-b566-5f331f3e0f14: 'team members' # team members
     11d573ef-a3aa-4b85-9c0b-5a6b26875c5a: Photo # Photo
     12b2563c-ae02-4b78-938b-ed96e2449eb8: Home # Home
     13f970a6-dd4b-4981-82cf-ed8e8731f084: Home # Home
+    22a47db6-205c-4bcf-a164-200956ae6c1a: 'Link Destination' # Link Destination
     28c3c5ca-9b42-4f07-9883-11d1f4efb68d: Function # Function
     39f77da7-cd54-498d-ae6c-f931841c747f: 'First name' # First name
+    80bfc760-9563-4d78-96a6-ee20e6c2e7d9: Navigation # Navigation
     253de168-8bb9-4ada-83dd-3030bcb71fde: 'Team member' # Team member
     706bcba6-87d5-425c-81cc-24aa26095035: logo_set # logo_set
+    1160b923-cca3-43ae-a38a-a0769f7c13d5: 'logo navigation' # logo navigation
     94517da1-07ab-491d-862e-cefe13e30ac9: Agency_title # Agency_title
     4499342d-42ee-4481-9ae4-ac7d97faf127: 'Project name' # Project name
     aae1f4f0-89a3-42cc-a488-59025cbe8e4e: Agency_info # Agency_info
@@ -40,6 +46,7 @@ meta:
     cef4a5b5-eeb9-48be-b320-483752a6a9e7: 'Last name' # Last name
     cfde8b38-ec03-474c-8db6-063e277cca71: Agency_image # Agency_image
     e980ba16-595d-4356-adef-b3c63803c7cb: 'project listing' # project listing
+    ee27edf1-8569-4970-af60-3cb60268029a: 'Navigation elements' # Navigation elements
     f541a3bc-9d47-4b06-9dc7-3cbf40f303fa: Projects # Projects
     fb149fcd-397b-4664-bd3d-042d3b4f1f58: Agency # Agency
 plugins:

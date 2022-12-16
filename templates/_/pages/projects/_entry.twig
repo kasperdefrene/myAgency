@@ -1,11 +1,9 @@
 {% extends "_/layouts/base.twig" %}
 
-{% set projects = craft.entries.section('projects').one() %}
-
 {% block content %}
 
 <section class="project__detail">
-    <h1 class="project__detail__title">{{ projects.title }}</h1>
+    <h1 class="project__detail__title">{{ entry.title }}</h1>
 </section>
 
 {% endblock %}

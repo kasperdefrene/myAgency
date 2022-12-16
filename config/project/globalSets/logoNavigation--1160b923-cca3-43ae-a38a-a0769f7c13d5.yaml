@@ -1,0 +1,24 @@
+fieldLayouts:
+  7060b0ca-8277-497f-a5c3-0956d648694b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8c81b245-6c5f-4aa2-a05d-49102b6c89b6 # agency logo navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a354b2a-fa0f-4404-8406-e273c9fc5dbd
+            userCondition: null
+            warning: null
+            width: 100
+        name: content
+        uid: 6cfac3ce-b97e-4c54-9e7f-2c6b3ef4741f
+        userCondition: null
+handle: logoNavigation
+name: 'logo navigation'
+sortOrder: 3
