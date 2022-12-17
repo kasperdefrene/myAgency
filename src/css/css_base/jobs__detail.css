@@ -1,0 +1,33 @@
+.jobs__detail{
+    padding: 10%;
+}
+
+.jobs__detail__title{
+    font-family: var(--title-font);
+    font-size: var(--font-size-xlarge);
+    color: var(--primary-color);
+    margin-bottom: var(--margin-large);
+    text-align: center;
+}
+
+.jobs__detail__description{
+    font-size: var(--font-size-medium);
+    margin-block-end: var(--margin-medium);
+    text-align: center;
+}
+
+.jobs__detail__image{
+    width: 50%;
+    margin-block-start: var(--margin-large);
+    margin-inline-start: 25%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+#link__detail{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-block-start: var(--margin-medium);
+}

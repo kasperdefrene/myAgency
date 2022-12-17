@@ -11,7 +11,6 @@
             {% for project in projects %}
 
             {% set photo = project.photo.one() %}
-
             <div class="projects__item">
                 <img class="projects__image" src="{{ photo.url }}" alt="">
                 <h1 class="projects__name">{{ project.title }}</h1>

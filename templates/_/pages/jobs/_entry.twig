@@ -1,0 +1,13 @@
+{% extends "_/layouts/base.twig" %}
+
+{% block content %}
+
+    {% set detailImage = entry.jobDetailImage.one() %}
+
+    <section class="jobs__detail">
+        <h1 class="jobs__detail__title">{{ entry.title }}</h1>
+        <p class="jobs__detail__description">{{entry.jobDescription}}</p>
+        <img class="jobs__detail__image" src="{{ detailImage.url }}" alt="">
+        <a class="jobs__listing__item__link" id="link__detail" href="{{ entry.url }}">Apply</a>
+    </section>
+{% endblock %}

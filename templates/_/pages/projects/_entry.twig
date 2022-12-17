@@ -13,6 +13,8 @@
         <section class="project__detail__info">
             <h2 class="project__detail__subtitle">Description</h2>
             <p class="project__detail__text">{{ entry.description }}</p>
+            {% set category = entry.projectType.one() %}
+            <p class="project__detail__category">{{ category.title }}</p>
         </section>
         <img class="project__detail__image" src="{{ photo.url }}" alt="">
     </div>
