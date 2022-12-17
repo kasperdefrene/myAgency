@@ -2,3 +2,9 @@
 /.idea
 /vendor
 .DS_Store
+<<<<<<< HEAD
+=======
+
+/node_modules
+.vscode
+>>>>>>> a2c00a5be0d8412f4948b889658a08dae7b504ab

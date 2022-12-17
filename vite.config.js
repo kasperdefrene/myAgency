@@ -16,7 +16,11 @@ export default ({ command }) => ({
     outDir: "./web/dist/",
     rollupOptions: {
       input: {
+<<<<<<< HEAD
         app: "./src/js/app.js",
+=======
+        app: "../src/js/app.js",
+>>>>>>> a2c00a5be0d8412f4948b889658a08dae7b504ab
       },
     },
   },
