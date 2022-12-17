@@ -12,11 +12,6 @@
             <p class="home__fold__info">
                 {{ entry.agencyInfo }}
             </p>
-            {% for link in navigation.navigationElements.all() %}
-              {% set destination = link.linkDestination.one() %}
-              <button class="home__fold__button"><a href="{{ destination.url }}">See {{ link.linkText }}</a></button>
-            {% endfor %}
-            
         </section>
         <img class="home__fold__image" src="{{ image.url }}" alt="fold image">
     </div>

@@ -36,6 +36,16 @@
     margin-block-start: 10%;
 }
 
+.project__detail__category{
+    background-color: var(--tertiary-color-transparant);
+    font-family: var(--title-font);
+    color: white;
+    padding: 1rem;
+    border-radius: 10rem;
+    margin-block-start: 10%;
+    width: fit-content;
+}
+
 .project__detail__image{
     width: 100%;
     margin: 0 auto;

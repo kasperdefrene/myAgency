@@ -25,6 +25,7 @@
     aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 20px;
+    margin-block-end: var(--margin-medium);
 }
 
 .projects__name{

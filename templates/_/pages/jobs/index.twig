@@ -1,0 +1,30 @@
+{% extends "_/layouts/base.twig" %}
+
+{% set jobs = craft.entries.section('jobs').all() %}
+
+{% block content %}
+
+{% set photo = entry.jobsImage.one() %}
+
+    <section class="jobs">
+        <h1 class="jobs__title">We have jobs!</h1>
+        <div class="jobs__container">
+            <img class="jobs__image" src="{{ photo.url }}" alt="">
+            <section class="jobs__listing">
+                {% for job in jobs %}
+
+                    {% set photo = job.jobDetailImage.one() %}
+
+                    <div class="jobs__listing__item">
+                        <section class="jobs__listing__element">
+                            <h2 class="jobs__listing__item__title">{{ job.title }}</h2>
+                            <p class="jobs__listing__item__description">{{ job.jobDescription }}</p>
+                            <a class="jobs__listing__item__link" href="{{ job.url }}">Apply</a>
+                        </section>
+                    </div>
+                {% endfor %}
+            </section>
+        </div>
+    </section>
+    
+{% endblock %}
