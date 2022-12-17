@@ -1,0 +1,171 @@
+field: 9d249cb8-b776-48ed-b566-5f331f3e0f14 # team members
+fieldLayouts:
+  f0843bf8-65c3-40c3-89be-ecf7d47e2f91:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 11d573ef-a3aa-4b85-9c0b-5a6b26875c5a # Photo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 652219e9-efde-4c40-bc94-b06b8b1e2fbc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 39f77da7-cd54-498d-ae6c-f931841c747f # First name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2342ea77-1856-42bf-a84f-1604b520801e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cef4a5b5-eeb9-48be-b320-483752a6a9e7 # Last name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b949ac9-e3e5-46bc-a313-b7f3640210d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 28c3c5ca-9b42-4f07-9883-11d1f4efb68d # Function
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c68c1136-077d-4985-8f3d-ae2a7529ff34
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f7d9ef28-b0cf-4502-86c9-50e95f158b8d
+        userCondition: null
+fields:
+  11d573ef-a3aa-4b85-9c0b-5a6b26875c5a: # Photo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: photo
+    instructions: 'upload a photo op the member'
+    name: Photo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40' # Assets
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40' # Assets
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'add the photo of the team member'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40' # Assets
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  28c3c5ca-9b42-4f07-9883-11d1f4efb68d: # Function
+    columnSuffix: vxyeizns
+    contentColumnType: text
+    fieldGroup: null
+    handle: function
+    instructions: 'fill in the function of the member'
+    name: Function
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  39f77da7-cd54-498d-ae6c-f931841c747f: # First name
+    columnSuffix: dqqqmbdc
+    contentColumnType: text
+    fieldGroup: null
+    handle: firstName
+    instructions: 'fill in the first name of the member'
+    name: 'First name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cef4a5b5-eeb9-48be-b320-483752a6a9e7: # Last name
+    columnSuffix: fwygjley
+    contentColumnType: text
+    fieldGroup: null
+    handle: lastName
+    instructions: 'fill in the last name of the member'
+    name: 'Last name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: teamMember
+name: 'Team member'
+sortOrder: 1

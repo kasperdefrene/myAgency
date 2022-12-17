@@ -1,0 +1,40 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Unbounded&display=swap');
+@import url("css_base/navbar.css");
+@import url("css_base/footer.css");
+@import url("css_base/home.css");
+@import url("css_base/contact.css");
+@import url("css_base/project_overview.css");
+@import url("css_base/project__detail.css");
+@import url("css_base/jobs__overview.css");
+@import url("css_base/jobs__detail.css");
+
+:root
+{
+    --primary-color: #899878;
+    --secondary-color: #E4E6C3;
+    --tertiary-color: #222725;
+    --tertiary-color-transparant: #222725d5;
+    --quaternary-color: #121113;
+
+    --margin-xlarge: 4rem;
+    --margin-large: 2rem;
+    --margin-medium: 1rem;
+    --margin-small: 0.5rem;
+
+    --font-size-xlarge: 3rem;
+    --font-size-large: 2rem;
+    --font-size-medium: 1.5rem;
+    --font-size-small: 1rem;
+    --font-size-xsmall: 0.8rem;
+
+    --paragraph-font: montserrat;
+    --title-font: unbounded;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    font-family: var(--paragraph-font);
+}
+

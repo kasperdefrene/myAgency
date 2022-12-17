@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  8993fd38-2a2f-4548-8f89-cbca898fb1ae:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 9608d7a0-dc19-47b5-83ed-1bc12d6df7fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b03762a9-cd96-423e-883b-1b2b0e836791
+        userCondition: null
+handle: projectType
+name: 'Project type'
+siteSettings:
+  06f6444a-ae0e-4eec-9b60-be414cf4c030: # Agency
+    hasUrls: true
+    template: null
+    uriFormat: 'project-type/{slug}'
+structure:
+  maxLevels: null
+  uid: 23619184-725e-4daa-b6ea-add33b55324c

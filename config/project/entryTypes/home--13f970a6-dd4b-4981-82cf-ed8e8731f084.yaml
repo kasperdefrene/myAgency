@@ -1,0 +1,145 @@
+fieldLayouts:
+  c5a82b2d-6793-4303-9dcb-6650f568ab09:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6176dc3f-efde-49a4-a570-df0a6fb5f2f7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 94517da1-07ab-491d-862e-cefe13e30ac9 # Agency_title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9c305a5-57cf-4751-af06-af09a1d68d17
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cfde8b38-ec03-474c-8db6-063e277cca71 # Agency_image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33919b8a-fa1b-4dee-80b0-b922e8c60fec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aae1f4f0-89a3-42cc-a488-59025cbe8e4e # Agency_info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7b3ea12-eee6-4de1-9a4e-4d308b9beb9d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1fba6b9a-a4e0-4b23-9ada-0252e30df1eb # Home_about
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31158c3f-31ef-4ab4-8118-8165ea5df252
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6fdacbe3-55e3-4edb-9596-9964b2d6f393 # Agency_logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a88023f2-6265-4fa4-afd6-92e4da0bd967
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c81b245-6c5f-4aa2-a05d-49102b6c89b6 # agency logo navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a3bb2cc-cac8-4ec0-8525-4e1cfb70f3e5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Intro
+        uid: ec0ffe42-ea64-4c71-b8c4-fdb17d9705ba
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ca56e1c6-0e39-4046-9d7c-0b7be41ff8c8 # Team
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b39ddfce-1833-45da-b5db-1b979791fdbc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9d249cb8-b776-48ed-b566-5f331f3e0f14 # team members
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4005e8a4-ad60-4e02-94ac-38e11d837933
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'team members'
+        uid: 286db1ab-8224-48cd-91b3-584902dac4cd
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: 12b2563c-ae02-4b78-938b-ed96e2449eb8 # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: projects
+name: Projects
+propagationMethod: all
+siteSettings:
+  06f6444a-ae0e-4eec-9b60-be414cf4c030: # Agency
+    enabledByDefault: true
+    hasUrls: true
+    template: _/pages/projects/_entry.twig
+    uriFormat: 'projects/{slug}'
+type: channel

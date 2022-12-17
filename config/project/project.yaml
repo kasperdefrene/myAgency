@@ -1,0 +1,86 @@
+dateModified: 1671270316
+email:
+  fromEmail: kasper.de.frene@student.howest.be
+  fromName: Agency
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0cb86248-587f-4d81-b636-3a3ba472901f: 'Home page' # Home page
+    1a82f55e-ecdb-48f2-b497-bde45326cb1e: 'project listing' # project listing
+    1d62d6ba-4632-45fa-9884-8bb7642b10d6: Common # Common
+    1dc3e5dc-90f9-44db-9461-7779f34b5a79: 'contact page' # contact page
+    1fba6b9a-a4e0-4b23-9ada-0252e30df1eb: Home_about # Home_about
+    03c03d88-bbd6-4fe6-9792-43d1fd5bb659: 'Job detail image' # Job detail image
+    03d05257-1076-4894-a310-85708a0b1dab: 'Project type' # Project type
+    3fddca76-1059-4b9d-9fd7-d81bab6dc7df: footer # footer
+    4dfe3401-c831-4479-b0a7-fe719b25ecba: 'footer copyright' # footer copyright
+    5a9b193a-bb9b-4a52-8d73-246d0ff999ec: 'Link text' # Link text
+    5bff15a5-1f98-4a84-8ce5-0f4cc35d6d40: Assets # Assets
+    5d3cbe0e-7be4-4cca-938c-3b78f1cdbbcd: 'project type' # project type
+    06f6444a-ae0e-4eec-9b60-be414cf4c030: Agency # Agency
+    6fdacbe3-55e3-4edb-9596-9964b2d6f393: Agency_logo # Agency_logo
+    7a4fb12f-e7ca-4de7-82a9-029b4e1edf6a: photo # photo
+    8c81b245-6c5f-4aa2-a05d-49102b6c89b6: 'agency logo navigation' # agency logo navigation
+    8d8c179f-bb90-4400-b1cb-0616ccffce68: Contact # Contact
+    9b850dd5-ee3e-4ae1-8a9c-e5933059820c: Link # Link
+    9d249cb8-b776-48ed-b566-5f331f3e0f14: 'team members' # team members
+    9f080a55-1033-41c7-8ab5-feb1fa22d3e3: 'Job function' # Job function
+    11d573ef-a3aa-4b85-9c0b-5a6b26875c5a: Photo # Photo
+    12b2563c-ae02-4b78-938b-ed96e2449eb8: Home # Home
+    13f970a6-dd4b-4981-82cf-ed8e8731f084: Home # Home
+    22a47db6-205c-4bcf-a164-200956ae6c1a: 'Link Destination' # Link Destination
+    28c3c5ca-9b42-4f07-9883-11d1f4efb68d: Function # Function
+    39f77da7-cd54-498d-ae6c-f931841c747f: 'First name' # First name
+    80bfc760-9563-4d78-96a6-ee20e6c2e7d9: Navigation # Navigation
+    253de168-8bb9-4ada-83dd-3030bcb71fde: 'Team member' # Team member
+    310b96af-04fe-4d60-b9bd-610396b332de: 'jobs listing' # jobs listing
+    483ec9e4-e5f3-4253-b0f9-249c1cb98723: 'Jobs image' # Jobs image
+    706bcba6-87d5-425c-81cc-24aa26095035: logo_set # logo_set
+    841d35a3-f22e-44d9-b57f-aa43e2813d04: Jobs # Jobs
+    1160b923-cca3-43ae-a38a-a0769f7c13d5: 'logo navigation' # logo navigation
+    94517da1-07ab-491d-862e-cefe13e30ac9: Agency_title # Agency_title
+    4499342d-42ee-4481-9ae4-ac7d97faf127: 'Project name' # Project name
+    a53b9e51-0ce8-441f-83f3-6718a108265a: 'Job description' # Job description
+    aae1f4f0-89a3-42cc-a488-59025cbe8e4e: Agency_info # Agency_info
+    b9cd6a21-5649-4875-8a00-0b45a5b09b5d: Contact # Contact
+    bb7fbe85-32b8-474d-8d65-8510bce3dfb8: description # description
+    c66d2a40-e5dc-4cb3-aff0-3967b3097807: Projects # Projects
+    c721baec-0525-4f91-a752-102313c93d9f: Jobs # Jobs
+    ca56e1c6-0e39-4046-9d7c-0b7be41ff8c8: Team # Team
+    cef4a5b5-eeb9-48be-b320-483752a6a9e7: 'Last name' # Last name
+    cfde8b38-ec03-474c-8db6-063e277cca71: Agency_image # Agency_image
+    e980ba16-595d-4356-adef-b3c63803c7cb: 'project listing' # project listing
+    e426384d-3ba3-4ee6-aed6-7b443dbfb7ee: 'jobs page' # jobs page
+    ec165398-87c3-4cfe-8d74-7eae57553f4a: 'jobs listing' # jobs listing
+    ee27edf1-8569-4970-af60-3cb60268029a: 'Navigation elements' # Navigation elements
+    f541a3bc-9d47-4b06-9dc7-3cbf40f303fa: Projects # Projects
+    fb149fcd-397b-4664-bd3d-042d3b4f1f58: Agency # Agency
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Agency
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

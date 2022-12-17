@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ siteName }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    {{ craft.vite.script("src/js/app.js") }}
+  </head>
+
+  {% set logo = logoSet.agencyLogo.one() %}
+  {% set logoNav = logoNavigation.agencyLogoNavigation.one() %}
+  {% set footer = footer.footerCopyright %}
+
+
+  <body>
+    <header>
+      <nav class="navbar">
+          <div class="nav__container">
+              <a href="{{ siteUrl }}">
+                <img class="logo__navigation" src="{{ logoNav.url }}" alt="">
+              </a>
+            {% for link in navigation.navigationElements.all() %}
+              {% set destination = link.linkDestination.one() %}
+              <a href="{{ destination.url }}">{{ link.linkText }}</a>
+            {% endfor %}
+          </div>
+      </nav>
+    </header>
+    <div class="container mx-auto px-4">
+      {% block content %}
+
+      {% endblock %}
+    </div>
+    <footer>
+          <img class="footer__logo" src="{{ logo.url }}" alt="">
+          <p class="footer__copyright">{{ footer }}</p>
+    </footer>
+  </body>
+</html>

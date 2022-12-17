@@ -1,0 +1,56 @@
+{% extends "_/layouts/base.twig" %}
+{% block content %}
+
+{% set image = entry.agencyImage.one() %}
+{% set logo = logoSet.agencyLogo.one() %}
+
+<section class="home__fold">
+    <div class="home__fold__container">
+        <section class="home__fold__text">
+            <h2 class="home__fold__welcome">Welcome to</h2>
+            <h1 class="home__fold__title"> {{ entry.agencyTitle }}</h1>
+            <p class="home__fold__info">
+                {{ entry.agencyInfo }}
+            </p>
+        </section>
+        <img class="home__fold__image" src="{{ image.url }}" alt="fold image">
+    </div>
+</section>
+
+<section class="home__about">
+    <div class="home__about__container">
+        <img class="home__about__logo" src="{{ logo.url }}" alt="">
+        <section class="home__about__text">
+            <h2 class="home__about__title">What do we do?</h2>
+            <p class="home__about__info">
+                {{ entry.homeAbout }}
+            </p>
+        </section>
+    </div>
+</section>
+
+
+
+<section class="home__team">
+    <h2 class="home__team__title">Meet the team</h2>
+    <p class="home__team__info"> {{ entry.team }} </p>
+
+    
+
+    <div class= "home__team__container">
+        {% for teamMember in entry.teamMembers.all() %}
+    
+        {% set photo = teamMember.photo.one() %}
+            <section class="home__team__section">
+                <img class="home__team__image" src="{{ photo.url }}" alt="">
+                <h3 class="home__team__first_name">{{ teamMember.firstName }}</h3>
+                <h4 class="home__team__last_name">{{ teamMember.lastName }}</h4>
+                <p class="home__team__function">{{ teamMember.function }}</p>
+            </section>
+        {% endfor %}
+    </div>
+</section>
+
+
+
+{% endblock %}

@@ -1,0 +1,67 @@
+fieldLayouts:
+  41ec43ea-9466-4042-aa11-15a82d1dde93:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: 'Job Function'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 719d1bff-40dd-4e0f-ac6a-bdc07b3a19ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a53b9e51-0ce8-441f-83f3-6718a108265a # Job description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f351093-36e2-400e-b0f6-01aeb93eca31
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 03c03d88-bbd6-4fe6-9792-43d1fd5bb659 # Job detail image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1040fd54-bf8d-478d-9aad-60da2829d729
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6b523b6f-845e-4bda-81f2-64c7adea3234
+        userCondition: null
+handle: jobs
+hasTitleField: true
+name: Jobs
+section: c721baec-0525-4f91-a752-102313c93d9f # Jobs
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

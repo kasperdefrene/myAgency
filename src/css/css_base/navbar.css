@@ -1,0 +1,33 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--tertiary-color-transparant);
+  padding-inline-start: 10%;
+}
+
+.nav__container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 1%;
+}
+
+.nav__container a{
+  text-decoration: none;
+  color: white;
+  margin-inline-end: 5%;
+}
+
+.nav__container a:first-of-type{
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo__navigation{
+   width: 100%;
+}
+
+.nav__container a:hover{
+  color: var(--primary-color);
+}
